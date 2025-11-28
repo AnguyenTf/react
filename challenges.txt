@@ -1,0 +1,12 @@
+Challenge #1: Rewrite the first code you learned
+
+import { createRoot } from "react-dom/client";
+
+const root = createRoot(document.querySelector("#root"))
+//or
+createRoot(document.getElementById("root"))
+
+root.render(<h1> Hello bruh</h1>)
+
+
+----------------------------------------------------------------
